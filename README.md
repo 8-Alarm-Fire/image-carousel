@@ -1,39 +1,47 @@
-# Project Name
-
-> Project description
-
-## Related Projects
-
-  - https://github.com/teamName/repo
-  - https://github.com/teamName/repo
-  - https://github.com/teamName/repo
-  - https://github.com/teamName/repo
+# EightAlarm
+> Photo carousel microservice for a real estate and rental web application
 
 ## Table of Contents
 
-1. [Usage](#Usage)
-1. [Requirements](#requirements)
-1. [Development](#development)
+1. [Technologies] (#Technologies)
+1. [Usage] (#Usage)
+
+## Technologies
+- React
+- MongoDB
+- Node
+- ExpressJS
+- AWS EC2
+- S3
+- Jest
+- Enzyme
+- Babel
+- Webpack
 
 ## Usage
-
-> Some usage instructions
-
-## Requirements
-
-An `nvmrc` file is included if using [nvm](https://github.com/creationix/nvm).
-
-- Node 6.13.0
-- etc
-
-## Development
 
 ### Installing Dependencies
 
 From within the root directory:
 
-```sh
-npm install -g webpack
+```
 npm install
+```
+
+### Starting the app
+
+From within the root directory:
+
+```
+npm run start
+npm run react-dev
+```
+
+### Seeding data
+
+From within the root directory:
+
+```
+npm run seed-database
 ```
 
